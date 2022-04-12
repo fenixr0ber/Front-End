@@ -1,0 +1,93 @@
+body {
+	background-color: #888794;
+
+}
+
+
+div	h1 {
+	padding: 10px;
+	text-align: center;
+	color: #0D3FC2;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+div h4 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+#cabecera {
+	background-color: #ffffff;
+}
+
+#contenido {
+	
+	background-color: #CBCBCB;
+
+}
+
+#pie {
+	background-color: #000;
+}
+
+
+#carrusel {
+	background-color: #0099ff;
+	
+}
+
+#redes {
+	height: 90px;
+	width: 300px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 2px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#redes a {
+	color: #fff;
+}
+
+.icon-facebook2 {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #2e406e;
+}
+
+.icon-twitter {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #339dc5;
+}
+
+.icon-youtube {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #e83028;
+}
+
+.icon-instagram {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #3f60a5;
+}
+
+#derecho_autor {
+	height: 90px;
+	width: 300px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 13px;
+	color: #CBCBCB;
+}
+
+#derecho_autor a {
+	text-decoration: none;
+	font-weight: bold;
+}

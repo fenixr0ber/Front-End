@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+	<header>
+		<div id = "marca">
+			<img id = isologo src="img/isologo.jpg">
+		</div>
+		<nav id = "botonera">
+			<ul>
+				<li><a href="#inicio" class= "boton">Inicio</a></li>
+				<li><a href="#quienes_somos" class="boton">Conocenos</a></li>
+				<li><a href="#contacto" class="boton">Contacto</a></li>
+				<li><a href="#productos" class="boton">Inmuebles</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<section id = "inicio">
+		
+
+		<div id = "quienes_somos">
+			<h2>¿Quienes somos?</h2>
+			<p><em>Somos una empresa familiar dedicada al alquiler de inmuebles en zona sur de la ciudad de Córdoba desde hace ya más de 30 años.</em> En su mayoría somos propietarios de las unidades de vivienda distribuidas en barrios de gran afluencia estudiantil como, barrio san fernando, ipona, jardín, las flores, artigas, etc.</p>
+			<p><strong>Nuestros inmuebles, ubicados a tan solo cuadras de ciudad universitaria,</strong> cumplen con las necesidades que todo estudiante requiere. Así mismo, hay paradas de colectivo a tan solo metros para que puedas viajar a cualquier lugar de Córdoba.</p>
+		</div>
+		
+		<div id = "contacto">
+			<h2>Contactanos</h2>
+			<ul>
+				<li>
+					Dueño y asesor: Roberto C. Monastra
+				</li>
+				<li>
+					Dirección: Pedro Carta Molina 800 B° Ipona
+				</li>
+				<li>
+					Teléfono de contacto: 3516068351
+				</li>
+			</ul>
+		</div>
+	
+	</section>
+
+	<section id = "productos">
+		<h2>Inmuebles</h2>
+		<nav id = btn_productos>
+			<ul>
+				<li><a href="#productos" class = "boton" onclick="ver('producto1')">Complejo A. Korn 3215</a></li>
+				<li><a href="#productos" class = "boton" onclick="ver('producto2')">Complejo A. Korn 3263</a></li>
+				<li><a href="#productos" class = "boton" onclick="ver('producto3')">Complejo Becu 3075</a></li>
+				<li><a href="#productos" class = "boton" onclick="ver('producto4')">Complejo Becu 3041</a></li>
+				<li><a href="#productos" class = "boton" onclick="ver('producto5')">Complejo P. Echague 3141</a></li>
+				<li><a href="#productos" class = "boton" onclick="ver('producto6')">Complejo Drago 367</a></li>
+			</ul>
+		</nav>
+		<div id = producto1 style = "display: none;">
+			<h3>Complejo A. Korn 3215</h3>
+			<img src="img/akorn3215.jpg" class = "cover">
+			<p>"informacion sobre el complejo"</p>
+		</div>
+		<div id = producto2 style = "display: none;">
+			<h3>Complejo A. Korn 3263</h3>
+			<img src="img/akorn3263.jpg" class = "cover">
+			<p>"informacion sobre el complejo"</p>
+		</div>
+		<div id = producto3 style = "display: none;">
+			<h3>Complejo Becu 3075</h3>
+			<img src="img/becu3075.jpg" class = "cover">
+			<p>"informacion sobre el complejo"</p>
+		</div>
+		<div id = producto4 style = "display: none;">
+			<h3>Complejo Becu 3041</h3>
+			<img src="img/becu3041.jpg" class = "cover">
+			<p>"informacion sobre el complejo"</p>
+		</div>
+		<div id = producto5 style = "display: none;">
+			<h3>Complejo P. Echague 3141</h3>
+			<img src="img/pechague3141.jpg" class = "cover">
+			<p>"informacion sobre el complejo"</p>
+		</div>
+		<div id = producto6 style = "display: none;">
+			<h3>Complejo Drago 367</h3>
+			<img src="img/drago367.jpg" class = "cover">
+			<p>"informacion sobre el complejo"</p>
+			
+		</div>
+		<a href="bootstrap/index.html" target=new><h3>Ver fotos de los dptos</h3></a>
+	</section>
+	
+	<footer>
+		<div id = "derecho_autor">
+			Web creada por <a target="new" href="https://www.linkedin.com/in/roberto-monastra-60b965191/">@Roberto Monastra</a>
+		</div>
+		<div id = "redes">
+			<a href="https://www.facebook.com/" class="icon-facebook2" target="new"></a>
+			<a href="https://www.instagram.com/" class="icon-instagram" target="new"></a>
+			<a href="https://twitter.com/?lang=es" class="icon-twitter" target="new"></a>
+			<a href="https://www.youtube.com/" class="icon-youtube" target="new"></a>
+		</div>	
+	</footer>
+
+
+</body>
+</html>

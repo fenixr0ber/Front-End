@@ -1,0 +1,416 @@
+header, #inicio, #productos, footer {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+
+
+body {
+	background-color: #888794;
+	font-family: Tahoma, Verdana, Arial ;
+}
+
+header {
+	height: 100px;
+	background-color: #fff;
+	
+
+}
+
+#marca {
+	height: 96px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	margin-left: 2px;
+	width: 210px;
+	float: left;
+	background-color: #000;
+}
+
+#isologo {
+	height: 100%;
+}
+
+#botonera {
+	height: 96px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	margin-right: 2px;
+	width: 740px;
+	background-color: #fff;
+}
+
+#botonera ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botonera ul li {
+	display: inline;
+}
+
+.boton {
+	background-color: #0D3FC2;
+	color: #fff;
+	display: inline-block;
+	font-size: 10px;
+	margin: 18px;
+	padding: 10px 2px;
+	text-align: center;
+	width: 80px;
+	text-decoration: none;
+	box-shadow: 0px 2px 0px #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.boton:hover {
+	background-color: #8080ff;
+}
+
+#inicio	{
+	
+	height: 500px;
+	background-color: #CBCBCB;
+}
+
+#js {
+	text-align: center;
+	font-weight: bold;
+	color: blue;
+}
+
+#quienes_somos {
+	height: 297px;
+	width: 850px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	float: right;
+}
+
+#quienes_somos h2 {
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+
+#quienes_somos p {
+	padding: 5px 15px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+#contacto {
+	height: 195px;
+	width: 850px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	float: right;
+}
+
+#contacto h2 {
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+
+#contacto ul li {
+	font-weight: bold;
+}
+
+#productos {
+	height: 970px;
+	background-color: #0099ff;
+}
+
+#productos h2 {
+	padding: 10px 0px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+#producto1, #producto2, #producto3, #producto4, #producto5, #producto6 {
+	height: 394px;
+	width: 315px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	margin-left: 2px;
+	padding: 0px;
+	background-color: #6666ff;
+	float: right;
+}
+
+#producto1, #producto2, #producto3, #producto4, #producto5, #producto6, h3 {
+	text-align: center;
+	color: white;
+}
+
+.cover {
+	object-fit: cover;
+	height: 197px;
+}
+
+.margen_lista {
+margin-top: 60px;
+}
+
+#productos img {
+	width: 100%;
+}
+
+
+
+footer {
+	height: 150px;
+	background-color: #000000;
+}
+
+#derecho_autor {
+	height: 90px;
+	width: 300px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 13px;
+	color: #CBCBCB;
+}
+
+#derecho_autor a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#redes {
+	height: 90px;
+	width: 300px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 2px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#redes a {
+	color: #fff;
+}
+
+.icon-facebook2 {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #2e406e;
+}
+
+.icon-twitter {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #339dc5;
+}
+
+.icon-youtube {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #e83028;
+}
+
+.icon-instagram {
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #3f60a5;
+}
+
+#btn_productos ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#btn_productos ul li {
+	display: inline;
+
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header, #inicio, #productos, footer {
+	width: 580px;	
+}
+
+#marca {
+	width: 200px;
+	float: left;
+}
+
+#botonera {
+	width: 370px;
+	float: right;
+}
+
+.boton {
+	margin: 2px;
+	padding: 20px 2px;
+	width: 80px;
+}
+
+#quienes_somos {	
+	width: 580px;
+}
+
+#contacto {
+	width: 580px;
+}
+
+#productos {
+	height: 2432px;
+
+}
+
+
+#producto1, #producto2, #producto3, #producto4, #producto5, #producto6 {	
+	width: 580px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+footer {
+	height: 150px;
+	background-color: #000000;
+}
+
+#derecho_autor {	
+	width: 280px;
+}
+
+#redes {
+	width: 280px;
+}
+
+}
+
+@media all and (max-width: 599px) {
+
+header, #inicio, #productos, footer {
+	width: 90%;
+}
+
+header {
+	height: auto;
+}
+
+#marca {
+	width: 100%;
+	float: none;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#botonera {
+	height: auto;
+	width: 100%;
+	float: none;
+}
+
+#botonera ul li {
+	display: block;
+
+}
+	
+.boton {
+	margin: 2px;
+	padding: 10px 0px;
+	width: 100%;
+	float: none;
+}
+
+#inicio	{
+	
+	height: auto;
+	background-color: #CBCBCB;
+}
+
+#quienes_somos {
+	height: auto;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	float: none;
+}
+
+#quienes_somos h2 {
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#quienes_somos p {
+	padding: 0;
+	text-align: justify;
+	font-size: 15px;
+}
+
+#contacto {
+	height: auto;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	float: none;
+}
+
+#contacto h2 {
+	padding: 0;
+	text-align: center;
+}
+
+#productos {
+	height: auto;
+}
+
+#productos h2 {
+	padding: 0;
+}
+
+
+#producto1, #producto2, #producto3, #producto4, #producto5, #producto6 {
+	height: auto;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	float: none;
+}
+
+.cover {
+	height: auto;
+}
+
+.margen_lista {
+margin-top: 0px;
+}
+
+footer {
+	height: auto;
+}
+
+#derecho_autor, #redes {
+	height: auto;
+	width: 100%;
+	float: none;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+}
